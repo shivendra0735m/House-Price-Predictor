@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load trained model
-model = joblib.load("house_price_model.pkl")
+model = joblib.load("House_Price_Model.pkl")
 
 st.set_page_config(
     page_title="House Price Predictor",
